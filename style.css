@@ -11,8 +11,12 @@ h1 {
     color: orange;
 }
 
-.welcome {
+section {
     display: flex;
+    margin-bottom: 150px;
+}
+
+.welcome {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -32,4 +36,10 @@ h1 {
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
